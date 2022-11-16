@@ -1,0 +1,29 @@
+{
+  "folders":
+  [
+    {
+      "path": ".",
+      "file_exclude_patterns":
+      [
+        "*.lock",
+        "package-lock.json",
+        "artisan",
+        "CACHEDIR.TAG"
+      ],
+      "folder_exclude_patterns":
+      [
+        "dist",
+        ".cache",
+        ".quasar",
+        "storage",
+        "vendor",
+        "node_modules",
+        "bootstrap",
+        "public/css",
+        "public/js",
+        "public/storage",
+        "public/vendor"
+      ]
+    }
+  ]
+}
