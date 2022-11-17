@@ -1,4 +1,6 @@
-# Challenge
+# Secret Santa as a Service
+
+Secret Santa is a popular holiday tradition for a gift exchange within a group of people. Each person's name is written on a piece of paper and randomly selected one at a time by every person in the group to determine the recipient of their Secret Santa gift. However, physically drawing names is not always successful, since it is possible that a person could draw their own name or the name of their significant other.
 
 ## Repo
 https://github.com/impxd/ssaas - https://ssaas.iamm.mp/
