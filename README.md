@@ -29,5 +29,8 @@ https://github.com/impxd/ssaas - https://ssaas.iamm.mp/
   - `app/app.component.*:` Main App Component
   - `app/app.interface.*:` App Component Interfaces
 
+## Endpoints
+- [POST] `secretsanta/create`: Starts a Secret santa exchange model, returns error or a Secret Santa entity.
+
 ### See api README
 ### See webclient README
