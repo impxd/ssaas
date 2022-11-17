@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import './styles/preflight.css';
+
+body {
+  color: #404040;
+  font-family: Knowledge2017, Helvetica Neue, Arial, sans-serif;
+}

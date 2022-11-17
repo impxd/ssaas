@@ -1,0 +1,90 @@
+#app-root {
+  max-width: 800px;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+#app-root h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#app-root h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#app-root h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+#app-root ul#instructions {
+  padding-left: 8px;
+  margin-bottom: 2rem;
+}
+
+#app-root ul#participants li {
+  min-height: 90px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+#app-root ul#participants .inputs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/*#app-root ul#participants li:last-child {
+  margin-bottom: 0;
+}*/
+
+#app-root ul#participants .index {
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+#app-root ul#participants input,
+#app-root ul#participants select {
+  padding: 4px 6px;
+  max-width: 200px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#app-root ul#participants select {
+  min-height: 80px;
+}
+
+#app-root button {
+  margin-right: 8px;
+  background-color: #fa6400;
+  border-color: #fa6400;
+  color: #fff;
+  border-radius: 0.37rem;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+#app-root button:disabled {
+  background-color: #cfcfcf;
+  border-color: #cfcfcf;
+}
+
+#app-root #error {
+  margin-top: 0.5rem;
+  color: #d94407;
+  font-weight: 500;
+}
+
+#app-root #loading {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
